@@ -55,3 +55,5 @@ class FeedbackPlugin {
     document.body.appendChild(container);
   }
 }
+
+window.FeedbackPlugin = FeedbackPlugin;
