@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc ./src/main.ts --outDir build --module commonjs",
     "preview": "vite preview"
   },
   "devDependencies": {
